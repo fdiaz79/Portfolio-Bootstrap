@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+        <!-- <script src="main.js"></script> -->
+    </head>
+    <body>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light header">
+            <div class="col-md-2"></div>
+            <a class="navbar-brand col-md-3" id="navName" href="#"><h2>Fabian Diaz  </h2></a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="col-md-2"></div>
+            <!-- <div class="collapse navbar-collapse col-md-4" id="navbarSupportedContent"> -->
+            <ul class="col-md-5">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html">About </a>
+                </li>                
+                <li class="nav-item ">
+                    <a class="nav-link" href="portfolio.html">Porfolio </a>
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <!-- </div> -->
+        </nav>
+
+        <!-- Main Container -->
+        <div class="container mainContainer">
+            <div class="row">
+                <div class="col-sm" id="innerTitle">
+                    <h1>Contact</h1>
+                </div>
+            </div>
+            <hr>
+
+            <!-- Form Starts here -->
+            <form>
+                <div class="form-group">
+                    <label for="contactName">Name:</label>
+                    <input type="text" class="form-control" id="contactName" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="contactEmail">Email address:</label>
+                    <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" placeholder="example@email.com">
+                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                </div>
+                <div class="form-group">
+                    <label for="contactMessage">Message:</label>
+                    <textarea class="form-control" id="contactMessage" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <span class="footerText">Copyright &copy;</span>
+            </div>
+        </footer>
+        
+    </body>
+</html>
